@@ -1,8 +1,7 @@
-
 class Main {
   static public function main(): Void {
-    trace(checkValue("1"));
-    trace(checkValue("2"));
-    trace(checkValue("123"));
+    trace(Other.checkValue("1"));
+    trace(Other.checkValue("2"));
+    trace(Other.checkValue("123"));
   }
 }
